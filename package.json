@@ -1,0 +1,45 @@
+{
+  "name": "Servicifier",
+  "version": "1.0.0",
+  "description": "Executable to install any file as a service on a computer with a single click",
+  "pkg": {
+    "outputPath": "release",
+    "scripts": "dist/**/*.js",
+    "targets": ["win"]
+  },
+  "main": "index.js",
+  "bin": "./dist/index.js",
+  "scripts": {
+    "lint": "eslint \"src/**/*.js\"",
+    "lint-fix": "eslint \"src/**/*.js\" --fix",
+    "build": "rimraf dist/ && babel ./src --out-dir dist/ --copy-files",
+    "start": "npm run build && node dist/index.js dev",
+    "release": "npm run build && pkg ."
+  },
+  "dependencies": {
+    "colors": "^1.3.3",
+    "xml": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.1",
+    "eslint": "^7.25.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-standard": "^4.0.1",
+    "rimraf": "^3.0.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "author": "ErAz7",
+  "license": "MIT",
+  "homepage": "https://github.com/ErAz7/servicifier#readme",
+  "bugs": {
+    "url": "https://github.com/ErAz7/servicifier/issues"
+  }
+}
