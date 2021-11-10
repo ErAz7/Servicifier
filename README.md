@@ -15,7 +15,7 @@ You can download latest release from [here][release]
 
 ![windows] | ![macos] | ![linux] |
 --- | --- | --- |
-Tested on Windows 10 ✔ | Not Supported Yet  | Not Supported Yet  |
+Windows 10 ✔ | Not Yet ❌ | Not Yet ❌ |
 
 # Setup & Usage
 
@@ -61,6 +61,6 @@ This script uses [node-windows][node-windows] (maybe [node-mac][node-mac] and [n
 [node-mac]: https://github.com/coreybutler/node-mac
 [node-linux]: https://github.com/coreybutler/node-linux
 [pkg]: https://github.com/vercel/pkg#readme
-[windows]: https://user-images.githubusercontent.com/46329768/120122894-fa2bfb00-c1c0-11eb-9700-8a55d43f1e01.png
-[macos]: https://user-images.githubusercontent.com/46329768/120122895-fbf5be80-c1c0-11eb-92c4-fba52ce104cc.png
-[linux]: https://user-images.githubusercontent.com/46329768/120122893-f7c9a100-c1c0-11eb-8c7b-405c73691113.png
+[windows]: https://user-images.githubusercontent.com/46329768/141021000-3fe223be-f648-4aaf-8a2a-3a5d84f95d50.png
+[macos]: https://user-images.githubusercontent.com/46329768/141021007-c2075401-e0e0-4451-8668-77da557bbe9b.png
+[linux]: https://user-images.githubusercontent.com/46329768/141096642-40524479-cc30-42e3-8a8e-c76c5c9b3f50.png
